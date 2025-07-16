@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins, sans-serif;
+  font-family: arial, sans-serif;
 }
 
 .background-logo {
@@ -24,7 +24,7 @@ nav {
 }
 
 .logo {
-  width: 140px;
+  width: 250px;
 }
 
 nav ul li {
@@ -51,7 +51,7 @@ nav ul li a {
   text-decoration: none;
   padding: 14px 40px;
   color: #fff;
-  background-image: linear-gradient(45deg, #f40752, #f9ab8f);
+  background-image: linear-gradient(45deg, #3c00ffff, #00eaffff);
   font-size: 14px;
   border-radius: 30px;
   border-top-right-radius: 0;
@@ -65,7 +65,7 @@ nav ul li a {
 
 .content h1 {
   font-size: 70px;
-  color: #222;
+  color: #333;
 }
 
 .content p {
@@ -85,7 +85,7 @@ nav ul li a {
 }
 
 .feature-img {
-  width: 530px;
+  width: 450px;
   position: absolute;
   bottom: 0;
   right: 10%;
@@ -97,7 +97,12 @@ nav ul li a {
 
 .anim {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translatey(30px);
+  animation: moveup 0.5s linear forwards;
+}
+.animn {
+  opacity: 0;
+  transform: translatex(30px);
   animation: moveup 0.5s linear forwards;
 }
 
